@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartButtonFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#1E88E5"
+        android:text="@string/stbtn"
+        android:padding="20dp"
+        android:textColor="#EEEEEEEF"
+        android:layout_gravity="center"
+        android:textSize="34sp"
+        android:theme="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_below="@+id/numberPicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Set"
+        android:textSize="24sp"
+        android:id="@+id/textView"
+        android:textColor="@color/black"
+        android:layout_above="@+id/numberPicker"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

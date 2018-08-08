@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "428152851407",
+    "firebase_url": "https://techrace-9fd0f.firebaseio.com",
+    "project_id": "techrace-9fd0f",
+    "storage_bucket": "techrace-9fd0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428152851407:android:d8ba99010513f116",
+        "android_client_info": {
+          "package_name": "com.iyer.shailesh.dbar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428152851407-4rngqm7otieb5fsndplg9vhgp029e5pi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP2CNgg_H1msCLhJGFN22_7cVONS-uzjE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

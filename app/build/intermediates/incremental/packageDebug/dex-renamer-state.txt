@@ -1,0 +1,7 @@
+#Wed Aug 01 16:07:19 IST 2018
+base.0=/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c25d8fa3cc68be4a41ee0e5804b3f776634c8d3f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a2016ec190906da0b41c20591c0e2b9709e3b6e1/classes.dex
+base.1=/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a2016ec190906da0b41c20591c0e2b9709e3b6e1
+file.0=/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c25d8fa3cc68be4a41ee0e5804b3f776634c8d3f/classes.dex

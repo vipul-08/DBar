@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">428152851407-4rngqm7otieb5fsndplg9vhgp029e5pi.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://techrace-9fd0f.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">428152851407</string>
+    <string name="google_api_key" translatable="false">AIzaSyBP2CNgg_H1msCLhJGFN22_7cVONS-uzjE</string>
+    <string name="google_app_id" translatable="false">1:428152851407:android:d8ba99010513f116</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBP2CNgg_H1msCLhJGFN22_7cVONS-uzjE</string>
+    <string name="google_storage_bucket" translatable="false">techrace-9fd0f.appspot.com</string>
+    <string name="project_id" translatable="false">techrace-9fd0f</string>
+</resources>

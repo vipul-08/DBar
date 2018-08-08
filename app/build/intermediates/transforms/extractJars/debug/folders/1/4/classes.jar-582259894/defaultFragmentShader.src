@@ -1,0 +1,102 @@
+precision mediump float;
+
+uniform sampler2D textureUnit0;
+uniform sampler2D textureUnit1;
+uniform sampler2D textureUnit2;
+uniform sampler2D textureUnit3;
+
+uniform int textureCount;
+uniform int blendingMode[4];
+
+varying vec2 texCoord[4];
+varying vec4 vertexColor;
+varying float fogWeight;
+varying vec3 fogVertexColor;
+
+const vec4 WHITE = vec4(1,1,1,1);
+
+void main() {
+	vec4 col = texture2D(textureUnit0, texCoord[0]) * vertexColor;
+	
+	if (textureCount>1) {
+	
+		// Can't index texture samplers and switch doesn't seem to compile(?)...end result:
+	
+		int mode=blendingMode[1];
+		vec2 texCo=texCoord[1];
+	
+		if (mode==0) {
+			// Modulate
+			col *= texture2D(textureUnit1, texCo);
+		} else if (mode==1) {
+			// Add
+			col += texture2D(textureUnit1, texCo);
+		} else if (mode==3) {
+			// Blend
+			col *= (WHITE - texture2D(textureUnit1, texCo));
+		} else if (mode==2) {
+			// Replace
+			col = texture2D(textureUnit1, texCo);
+		} else if (mode==4) {
+			// Decal
+			vec4 col2=texture2D(textureUnit1, texCo);
+			col = vec4(mix(col.rgb, col2.rgb, col2.a), col2.a); 
+		}
+		
+		if (textureCount>2) {
+		
+			mode=blendingMode[2];
+			texCo=texCoord[2];
+		
+			if (mode==0) {
+				// Modulate
+				col *= texture2D(textureUnit2, texCo);
+			} else if (mode==1) {
+				// Add
+				col += texture2D(textureUnit2, texCo);
+			} else if (mode==3) {
+				// Blend
+				col *= (WHITE - texture2D(textureUnit2, texCo));
+			} else if (mode==2) {
+				// Replace
+				col = texture2D(textureUnit2, texCo);
+			} else if (mode==4) {
+				// Decal
+				vec4 col2=texture2D(textureUnit2, texCo);
+				col = vec4(mix(col.rgb, col2.rgb, col2.a), col2.a); 
+			}
+			
+			if (textureCount>3) {
+			
+				mode=blendingMode[3];
+				texCo=texCoord[3];
+			
+				if (mode==0) {
+					// Modulate
+					col *= texture2D(textureUnit3, texCo);
+				} else if (mode==1) {
+					// Add
+					col += texture2D(textureUnit3, texCo);
+				} else if (mode==3) {
+					// Blend
+					col *= (WHITE - texture2D(textureUnit3, texCo));
+				} else if (mode==2) {
+					// Replace
+					col = texture2D(textureUnit3, texCo);
+				} else if (mode==4) {
+					// Decal
+					vec4 col2=texture2D(textureUnit3, texCo);
+					col = vec4(mix(col.rgb, col2.rgb, col2.a), col2.a); 
+				}
+			}
+		}
+	}
+	
+	if (fogWeight>-0.9) {
+		col.xyz = (1.0-fogWeight) * col.xyz + fogVertexColor;
+	}
+	
+	gl_FragColor=col;
+}
+
+
