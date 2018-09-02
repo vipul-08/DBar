@@ -36,6 +36,10 @@
         "source": "/home/vips/AndroidStudioProjects/DBar/app/src/main/res/layout/activity_splash.xml"
     },
     {
+        "merged": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/res/merged/debug/layout/activity_riddles.xml",
+        "source": "/home/vips/AndroidStudioProjects/DBar/app/src/main/res/layout/activity_riddles.xml"
+    },
+    {
         "merged": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/res/merged/debug/layout/popup_layout.xml",
         "source": "/home/vips/AndroidStudioProjects/DBar/app/src/main/res/layout/popup_layout.xml"
     },

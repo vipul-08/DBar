@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:2:1-39:12
+ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml
@@ -52,7 +52,8 @@ ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xm
 	android:glEsVersion
 		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:16:19-51
 application
-ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:18:5-37:19
+ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:18:5-39:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:9.0.0] /home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/9.0.0/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:9.0.0] /home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.0/AndroidManifest.xml:26:5-41:19
 MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] /home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.0/AndroidManifest.xml:26:5-41:19
@@ -79,40 +80,45 @@ MERGED from [com.felipecsl:gifimageview:2.1.0] /home/vips/AndroidStudioProjects/
 	android:name
 		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:19:9-40
 activity#com.iyer.shailesh.dbar.MainActivity
-ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:25:9-26:51
+ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:25:9-27:52
 	android:screenOrientation
-		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:26:13-49
+		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:27:13-49
 	android:name
-		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:25:19-47
+		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:26:13-41
 activity#com.iyer.shailesh.dbar.SplashActivity
-ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:27:9-33:20
+ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:28:9-34:20
 	android:name
-		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:27:19-49
+		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:28:19-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:28:13-32:29
+ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:29:17-69
+ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:31:17-77
+ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:31:27-74
+		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:32:27-74
 activity#com.iyer.shailesh.dbar.ArActivity
-ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:34:9-48
+ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:35:9-48
 	android:name
-		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:34:19-45
+		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:35:19-45
 activity#org.artoolkit.ar.base.camera.CameraPreferencesActivity
-ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:35:9-91
+ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:36:9-91
 	android:name
-		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:35:19-88
+		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:36:19-88
 activity#com.iyer.shailesh.dbar.VideoActivity
-ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:36:9-60
+ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:37:9-51
 	android:name
-		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:36:19-48
+		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:37:19-48
+activity#com.iyer.shailesh.dbar.RiddlesActivity
+ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:38:9-62
+	android:name
+		ADDED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml:38:19-50
 uses-sdk
 INJECTED from /home/vips/AndroidStudioProjects/DBar/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [org.artoolkit.ar.jpct:ArJpctBaseLib:0.9] /home/vips/AndroidStudioProjects/DBar/ArJpctBaseLib/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-core:9.0.0] /home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/9.0.0/AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-analytics:9.0.0] /home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] /home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.0/AndroidManifest.xml:18:5-42

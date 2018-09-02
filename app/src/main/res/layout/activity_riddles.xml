@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RiddlesActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="#ffffff"
+        android:elevation="4dp"
+        android:theme="@style/AppTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_toolbar_one"
+        android:id="@+id/riddleHeading"
+        android:textSize="40sp"
+        android:text="Riddle"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/riddleHeading"
+        android:id="@+id/questionHeading"
+        android:text="Question:"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="30sp"
+        android:textColor="#000000" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionHeading"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="20dp"
+        android:layout_marginRight="16dp"
+        android:text="This is some question\nSome more text"
+        android:padding="16dp"
+        android:background="#358dda"
+        android:id="@+id/questionText"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionText"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/answerField"
+        android:layout_marginRight="16dp"
+        android:hint="Enter the answer here!"
+        android:textColorHint="#000000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answerField"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/checkAnswer"
+        android:text="Check Answer"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/captureMarker"
+        android:visibility="gone"
+        android:layout_below="@id/answerField"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Capture Marker"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/nextQues"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:enabled="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Game"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/finishSet"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:enabled="true"/>
+
+</RelativeLayout>

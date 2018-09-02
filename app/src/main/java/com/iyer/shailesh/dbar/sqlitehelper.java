@@ -688,6 +688,21 @@ public class sqlitehelper extends SQLiteOpenHelper {
         return list;
     }
 
+    public int get_Status(int position) {
+        dbase = this.getReadableDatabase();
+        int k = 0;
+        Log.d("Awkaat","pos"+position);
+        String query = "SELECT r"+position+" FROM " +TABLE_DETAILS + " WHERE " + ENDTIME + "=''";
+        Cursor cursor = dbase.rawQuery(query,null);
+        if(cursor.moveToFirst()) {
+            Log.d("Awkaat","In If");
+            k = cursor.getInt(0);
+        }
+        cursor.close();
+        Log.d("Awkaat",k+"");
+        return k;
+    }
+
     public void update_Status(int position) {
         dbase = this.getWritableDatabase();
         String query = "SELECT " + R1 + "," + R2 + "," + R3 + "," + R4 + "," + R5 + "," + R6 + "," + R7 + " FROM " + TABLE_DETAILS + " WHERE " + ENDTIME + "=''";
@@ -803,4 +818,24 @@ public class sqlitehelper extends SQLiteOpenHelper {
         }
         return set;
     }
+
+    public int getCurrentQues() {
+        dbase = this.getReadableDatabase();
+        int quesNum = 0;
+        for(int i = 1 ; i < 8 ; i++){
+            String query = "SELECT r"+i+" FROM " +TABLE_DETAILS + " WHERE " + ENDTIME + "=''";
+            Cursor cursor = dbase.rawQuery(query,null);
+            if(cursor.moveToFirst()) {
+                int k = cursor.getInt(0);
+                if(k<2) {
+                    break;
+                }
+                quesNum = i;
+            }
+        }
+        if(quesNum == 0)
+            quesNum = 1;
+        return quesNum;
+    }
+
 }

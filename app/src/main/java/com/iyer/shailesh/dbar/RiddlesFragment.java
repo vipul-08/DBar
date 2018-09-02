@@ -39,7 +39,6 @@ public class RiddlesFragment extends ListFragment {
         // Required empty public constructor
     }
 
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -87,7 +86,6 @@ public class RiddlesFragment extends ListFragment {
         if (statusf) {
             Log.e("Activity Result", "endgame should be visible");
             endgame.setVisibility(View.VISIBLE);
-
         }
     }
 
@@ -188,6 +186,4 @@ public class RiddlesFragment extends ListFragment {
             Log.e("Activity Result", "not setting status");
         }
     }
-
-
 }

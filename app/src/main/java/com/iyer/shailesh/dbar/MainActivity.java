@@ -34,22 +34,38 @@ public class MainActivity extends AppCompatActivity {
         boolean flag=sqlite.isGameInProgress();
 
         if(flag){
-            RiddlesFragment riddlesFragment=new RiddlesFragment();
-            manager=getSupportFragmentManager();
-            transaction = manager.beginTransaction();
-            transaction.replace(R.id.main_layout,riddlesFragment);
-            transaction.addToBackStack("list");
-            transaction.commit();
+            int qno = sqlite.getCurrentQues();
+            int setNum = sqlite.getUserSet();
+
+            Log.d("QUES_NO",qno+"");
+
+            Intent intent = new Intent(MainActivity.this,RiddlesActivity.class);
+            intent.putExtra("set",setNum);
+            intent.putExtra("ques",qno);
+            startActivity(intent);
+
+//            RiddlesFragment riddlesFragment=new RiddlesFragment();
+//            manager=getSupportFragmentManager();
+//            transaction = manager.beginTransaction();
+//            transaction.replace(R.id.main_layout,riddlesFragment);
+//            transaction.addToBackStack("list");
+//            transaction.commit();
         }
     }
 
     public void newplayer(int set){
         sqlite.createnewuser(set);
-        RiddlesFragment riddlesFragment=new RiddlesFragment();
-        transaction = manager.beginTransaction();
-        transaction.replace(R.id.main_layout,riddlesFragment);
-        transaction.addToBackStack("list");
-        transaction.commit();
+
+        Intent intent = new Intent(MainActivity.this,RiddlesActivity.class);
+        intent.putExtra("set",set);
+        intent.putExtra("ques",1);
+        startActivity(intent);
+
+//        RiddlesFragment riddlesFragment=new RiddlesFragment();
+//        transaction = manager.beginTransaction();
+//        transaction.replace(R.id.main_layout,riddlesFragment);
+//        transaction.addToBackStack("list");
+//        transaction.commit();
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu){

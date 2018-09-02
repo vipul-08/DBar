@@ -51,6 +51,7 @@
         <activity android:name="com.iyer.shailesh.dbar.ArActivity" />
         <activity android:name="org.artoolkit.ar.base.camera.CameraPreferencesActivity" />
         <activity android:name="com.iyer.shailesh.dbar.VideoActivity" />
+        <activity android:name="com.iyer.shailesh.dbar.RiddlesActivity" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
