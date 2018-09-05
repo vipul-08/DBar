@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TechRace</string>
+    <string name="app_name">Treasure Hunt</string>
     <string name="register_edit_details">Register / Edit Details</string>
     <string name="start">start</string>
     <string name="view_time">View Time</string>

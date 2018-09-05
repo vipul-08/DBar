@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("set",setNum);
             intent.putExtra("ques",qno);
             startActivity(intent);
+            finish();
 
 //            RiddlesFragment riddlesFragment=new RiddlesFragment();
 //            manager=getSupportFragmentManager();
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("set",set);
         intent.putExtra("ques",1);
         startActivity(intent);
+        finish();
 
 //        RiddlesFragment riddlesFragment=new RiddlesFragment();
 //        transaction = manager.beginTransaction();

@@ -90,7 +90,7 @@ public class ArActivity extends ArJpctActivity {
         db.calcTextureWrapSpherical();
         int arr[]={R.drawable.icon1,R.drawable.icon2,R.drawable.icon3,R.drawable.icon4,R.drawable.icon5,R.drawable.icon6,R.drawable.icon7};
 
-        if ("parking".equalsIgnoreCase(location)) {
+        if ("gopuram".equalsIgnoreCase(location)) {
             //Dragon Ball 1
             tckobj= new TrackableObject3d("single_barcode;0;80");
             dr= ContextCompat.getDrawable(this,arr[position]);
@@ -105,7 +105,7 @@ public class ArActivity extends ArJpctActivity {
             }
             list.add(tckobj);
         }
-        else if ("stairs".equalsIgnoreCase(location)) {
+        else if ("library".equalsIgnoreCase(location)) {
             //Dragon Ball 2
             tckobj = new TrackableObject3d("single_barcode;1;80");
             dr= ContextCompat.getDrawable(this,arr[position]);
@@ -121,7 +121,7 @@ public class ArActivity extends ArJpctActivity {
             }
             list.add(tckobj);
         }
-        else if ("exam cell".equalsIgnoreCase(location)) {
+        else if ("auditorium".equalsIgnoreCase(location)) {
             //Dragon Ball 3
             tckobj= new TrackableObject3d("single_barcode;2;80");
             dr= ContextCompat.getDrawable(this,arr[position]);
@@ -139,7 +139,7 @@ public class ArActivity extends ArJpctActivity {
 
 
         }
-        else if ("workshop".equalsIgnoreCase(location)) {
+        else if ("amphitheatre".equalsIgnoreCase(location)) {
             //Dragon Ball 4
             tckobj= new TrackableObject3d("single_barcode;3;80");
             dr= ContextCompat.getDrawable(this,arr[position]);
@@ -157,7 +157,7 @@ public class ArActivity extends ArJpctActivity {
 
 
         }
-        else if ("213".equalsIgnoreCase(location)) {
+        else if ("canteen".equalsIgnoreCase(location)) {
             //Dragon Ball 5
             tckobj= new TrackableObject3d("single_barcode;4;80");
             dr= ContextCompat.getDrawable(this,arr[position]);
@@ -173,7 +173,7 @@ public class ArActivity extends ArJpctActivity {
             }
             list.add(tckobj);
         }
-        else if ("canteen".equalsIgnoreCase(location)) {
+        else if ("301".equalsIgnoreCase(location)) {
             //Dragon Ball 6
             tckobj= new TrackableObject3d("single_barcode;5;80");
             dr= ContextCompat.getDrawable(this,arr[position]);
@@ -189,7 +189,7 @@ public class ArActivity extends ArJpctActivity {
             }
             list.add(tckobj);
         }
-        else if("amphitheatre".equalsIgnoreCase(location)) {
+        else if("nt2".equalsIgnoreCase(location)) {
             //Dragon Ball 7
             tckobj = new TrackableObject3d("single_barcode;6;80");
             dr= ContextCompat.getDrawable(this,arr[position]);
@@ -205,7 +205,7 @@ public class ArActivity extends ArJpctActivity {
             }
             list.add(tckobj);
         }
-        else if("front gate".equalsIgnoreCase(location)) {
+        else if("101".equalsIgnoreCase(location)) {
             //Dragon Ball 7
             tckobj = new TrackableObject3d("single_barcode;7;80");
             dr= ContextCompat.getDrawable(this,arr[position]);
@@ -221,7 +221,7 @@ public class ArActivity extends ArJpctActivity {
             }
             list.add(tckobj);
         }
-        else if("cafeteria".equalsIgnoreCase(location)) {
+        else if("gym".equalsIgnoreCase(location)) {
             //Dragon Ball 7
             tckobj = new TrackableObject3d("single_barcode;8;80");
             dr= ContextCompat.getDrawable(this,arr[position]);
@@ -238,7 +238,7 @@ public class ArActivity extends ArJpctActivity {
             list.add(tckobj);
         }
 
-        else if("319".equalsIgnoreCase(location)) {
+        else if("workshop".equalsIgnoreCase(location)) {
             tckobj = new TrackableObject3d("single_barcode;9;80");
             dr= ContextCompat.getDrawable(this,arr[position]);
             texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
@@ -254,7 +254,7 @@ public class ArActivity extends ArJpctActivity {
             list.add(tckobj);
         }
 
-        else if("auditorium".equalsIgnoreCase(location)) {
+        else if("main gate".equalsIgnoreCase(location)) {
             tckobj = new TrackableObject3d("single_barcode;10;80");
             dr= ContextCompat.getDrawable(this,arr[position]);
             texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
@@ -270,7 +270,7 @@ public class ArActivity extends ArJpctActivity {
             list.add(tckobj);
         }
 
-        else if("gymnasium".equalsIgnoreCase(location)) {
+        else if("parking lot".equalsIgnoreCase(location)) {
             tckobj = new TrackableObject3d("single_barcode;11;80");
             dr= ContextCompat.getDrawable(this,arr[position]);
             texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
@@ -286,7 +286,7 @@ public class ArActivity extends ArJpctActivity {
             list.add(tckobj);
         }
 
-        else if("library".equalsIgnoreCase(location)) {
+        else if("319".equalsIgnoreCase(location)) {
             tckobj = new TrackableObject3d("single_barcode;12;80");
             dr= ContextCompat.getDrawable(this,arr[position]);
             texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
@@ -300,10 +300,52 @@ public class ArActivity extends ArJpctActivity {
                 e.printStackTrace();
             }
             list.add(tckobj);
-
-
         }
+        else if("office".equalsIgnoreCase(location)) {
+            tckobj = new TrackableObject3d("single_barcode;13;80");
+            dr= ContextCompat.getDrawable(this,arr[position]);
+            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
+            TextureManager.getInstance().addTexture("db14",texture);
+            try{
+                db.setTexture("db14");
+                tckobj.addChild(db);
 
+            }
+            catch(Exception e){
+                e.printStackTrace();
+            }
+            list.add(tckobj);
+        }
+        else if("first aid room".equalsIgnoreCase(location)) {
+            tckobj = new TrackableObject3d("single_barcode;14;80");
+            dr= ContextCompat.getDrawable(this,arr[position]);
+            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
+            TextureManager.getInstance().addTexture("db15",texture);
+            try{
+                db.setTexture("db15");
+                tckobj.addChild(db);
+
+            }
+            catch(Exception e){
+                e.printStackTrace();
+            }
+            list.add(tckobj);
+        }
+        else if("cafeteria".equalsIgnoreCase(location)) {
+            tckobj = new TrackableObject3d("single_barcode;15;80");
+            dr= ContextCompat.getDrawable(this,arr[position]);
+            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
+            TextureManager.getInstance().addTexture("db16",texture);
+            try{
+                db.setTexture("db16");
+                tckobj.addChild(db);
+
+            }
+            catch(Exception e){
+                e.printStackTrace();
+            }
+            list.add(tckobj);
+        }
 
 
         Log.e("trackobjlist","reached end of method ");

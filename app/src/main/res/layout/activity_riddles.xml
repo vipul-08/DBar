@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".RiddlesActivity">
 
     <android.support.v7.widget.Toolbar
@@ -26,7 +27,7 @@
         android:id="@+id/riddleHeading"
         android:textSize="40sp"
         android:text="Riddle"
-        android:textColor="#000000"
+        android:textColor="#ffffff"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
@@ -38,10 +39,10 @@
         android:layout_below="@id/riddleHeading"
         android:id="@+id/questionHeading"
         android:text="Question:"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="16dp"
         android:textSize="30sp"
-        android:textColor="#000000" />
+        android:textColor="#ffffff" />
 
 
 
@@ -49,25 +50,40 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/questionHeading"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="16dp"
         android:textSize="20dp"
         android:layout_marginRight="16dp"
+        android:textColor="#000000"
         android:text="This is some question\nSome more text"
         android:padding="16dp"
-        android:background="#358dda"
+        android:background="@drawable/question_background"
         android:id="@+id/questionText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionText"
+        android:id="@+id/answerHeading"
+        android:text="Enter the answer:"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="30sp"
+        android:textColor="#ffffff" />
+
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/questionText"
-        android:layout_marginTop="20dp"
+        android:background="@drawable/question_background"
+        android:layout_below="@id/answerHeading"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
         android:layout_marginLeft="16dp"
         android:id="@+id/answerField"
         android:layout_marginRight="16dp"
-        android:hint="Enter the answer here!"
-        android:textColorHint="#000000"/>
+        android:hint="Enter the answer here!"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -75,7 +91,7 @@
         android:layout_below="@id/answerField"
         android:layout_alignParentRight="true"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/checkAnswer"
         android:text="Check Answer"/>
 
@@ -87,7 +103,7 @@
         android:layout_below="@id/answerField"
         android:layout_alignParentRight="true"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:text="Capture Marker"/>
 
     <Button
@@ -100,6 +116,31 @@
         android:layout_marginBottom="16dp"
         android:layout_marginRight="16dp"
         android:enabled="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Image"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/showImage"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:enabled="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/riddleHint"
+        android:text="This is the riddle status!"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="20dp"
+        android:textColor="#0fc4d4"
+        android:layout_above="@id/nextQues"/>
 
     <Button
         android:layout_width="wrap_content"

@@ -9,19 +9,26 @@ public class Riddles {
     private String ANSWER;
     private String DBID;
     private int STATUS;
+    private String IMAGE;
     public Riddles(){
         RID=0;
         QUESTION="";
         ANSWER="";
         DBID="";
         STATUS=0;
+        IMAGE = "NO";
     }
-    public Riddles(int rid,String question,String answer,String dbid){
+    public Riddles(int rid,String question,String answer,String dbid,String image){
         RID=rid;
         QUESTION=question;
         ANSWER=answer;
         DBID=dbid;
+        IMAGE = image;
     }
+
+
+    public String getIMAGE() { return IMAGE; }
+    public void setIMAGE(String IMAGE) { this.IMAGE = IMAGE; }
     public int getRID(){return RID;}
     public String getQUESTION(){return QUESTION;}
     public String getANSWER(){return ANSWER;}

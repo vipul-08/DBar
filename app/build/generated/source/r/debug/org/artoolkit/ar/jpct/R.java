@@ -14,10 +14,10 @@ public final class R {
         public static final int pref_entryValues_cameraResolution = 0x7f0d0003;
     }
     public static final class drawable {
-        public static final int settings = 0x7f02007d;
+        public static final int settings = 0x7f020084;
     }
     public static final class id {
-        public static final int settings = 0x7f0f0094;
+        public static final int settings = 0x7f0f009a;
     }
     public static final class menu {
         public static final int options = 0x7f100001;

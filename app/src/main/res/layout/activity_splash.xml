@@ -9,17 +9,28 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.iyer.shailesh.dbar.SplashActivity">
 
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/log_cog"
+        android:src="@drawable/cognition_logo"
+        android:layout_centerInParent="true"
+        />
+
     <com.felipecsl.gifimageview.library.GifImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
         android:id="@+id/gifView"
         android:layout_centerInParent="true" />
 
-    <ProgressBar
-        android:id="@+id/pBar"
+    <TextView
+        android:id="@+id/captionView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/gifView"
+        android:layout_below="@id/log_cog"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:text="Cognition 2018"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp" />
 
