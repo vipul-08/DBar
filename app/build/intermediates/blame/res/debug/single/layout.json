@@ -104,16 +104,16 @@
         "source": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_search_view.xml"
     },
     {
+        "merged": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/res/merged/debug/layout/dialog_image.xml",
+        "source": "/home/vips/AndroidStudioProjects/DBar/app/src/main/res/layout/dialog_image.xml"
+    },
+    {
         "merged": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_content_include.xml"
     },
     {
         "merged": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/res/merged/debug/layout/dialog_image.xml",
-        "source": "/home/vips/AndroidStudioProjects/DBar/app/src/main/res/layout/dialog_image.xml"
     },
     {
         "merged": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",

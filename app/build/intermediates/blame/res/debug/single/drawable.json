@@ -16,6 +16,10 @@
         "source": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
+        "merged": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/res/merged/debug/drawable/cognition_logo.png",
+        "source": "/home/vips/AndroidStudioProjects/DBar/app/src/main/res/drawable/cognition_logo.png"
+    },
+    {
         "merged": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
         "source": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
@@ -124,12 +128,12 @@
         "source": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_item_background_holo_light.xml"
-    },
-    {
         "merged": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
         "source": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_item_background_holo_light.xml"
     },
     {
         "merged": "/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/res/merged/debug/drawable/question_background.xml",

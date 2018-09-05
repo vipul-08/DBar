@@ -85,6 +85,7 @@ public class RiddlesActivity extends AppCompatActivity {
             showImage.setVisibility(GONE);
         }
         quesView.setText(question);
+        riddleHint.setVisibility(View.VISIBLE);
 
         if(riddlesList.get(ques-1).getStatus() == 2 && ques == 6) {
             next.setVisibility(GONE);
@@ -167,7 +168,7 @@ public class RiddlesActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 sqlite.finishGame();
-                startActivity(new Intent(RiddlesActivity.this,VideoActivity.class));
+                startActivity(new Intent(RiddlesActivity.this,MainActivity.class));
                 finish();
             }
         });
