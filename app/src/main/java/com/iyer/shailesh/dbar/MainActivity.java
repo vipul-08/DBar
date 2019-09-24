@@ -63,11 +63,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
 
-//        RiddlesFragment riddlesFragment=new RiddlesFragment();
-//        transaction = manager.beginTransaction();
-//        transaction.replace(R.id.main_layout,riddlesFragment);
-//        transaction.addToBackStack("list");
-//        transaction.commit();
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu){

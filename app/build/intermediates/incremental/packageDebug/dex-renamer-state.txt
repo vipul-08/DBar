@@ -1,7 +1,7 @@
-#Thu Sep 06 14:06:42 IST 2018
-base.0=/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c25d8fa3cc68be4a41ee0e5804b3f776634c8d3f
+#Wed Sep 25 03:20:12 IST 2019
+base.0=/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eb76c198c647481633e0d208e4fe6f9172356c3d
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a2016ec190906da0b41c20591c0e2b9709e3b6e1/classes.dex
-base.1=/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a2016ec190906da0b41c20591c0e2b9709e3b6e1
-file.0=/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c25d8fa3cc68be4a41ee0e5804b3f776634c8d3f/classes.dex
+file.1=/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_645101255497d56000c6bcf62e3c40e72c5c5425/classes.dex
+base.1=/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_645101255497d56000c6bcf62e3c40e72c5c5425
+file.0=/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eb76c198c647481633e0d208e4fe6f9172356c3d/classes.dex

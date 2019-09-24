@@ -26,17 +26,22 @@
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".SplashActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ArActivity" />
-        <activity android:name="org.artoolkit.ar.base.camera.CameraPreferencesActivity" />
-        <activity android:name=".VideoActivity" />
-        <activity android:name=".RiddlesActivity"></activity>
+        <activity android:name=".ArActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="org.artoolkit.ar.base.camera.CameraPreferencesActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".VideoActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RiddlesActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

@@ -42,7 +42,7 @@ public class CustomAdapter extends ArrayAdapter {
 
         TextView riddleID = (TextView) view.findViewById(R.id.riddleid);
         TextView riddleStatus = (TextView) view.findViewById(R.id.riddlestatus);
-        Log.e("HEEYYY",String.valueOf(mList.get(position).getRID()));
+        //Log.e("HEEYYY",String.valueOf(mList.get(position).getRID()));
 
         riddleID.setText((String.valueOf(mList.get(position).getRID())));
         status = mList.get(position).getStatus();

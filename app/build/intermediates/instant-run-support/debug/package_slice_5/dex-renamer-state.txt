@@ -1,4 +1,4 @@
-#Thu Sep 06 13:58:20 IST 2018
-base.0=/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5
+#Wed Sep 25 02:56:32 IST 2019
+base.0=/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5
 renamed.0=classes.dex
-file.0=/home/vips/AndroidStudioProjects/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex
+file.0=/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex
