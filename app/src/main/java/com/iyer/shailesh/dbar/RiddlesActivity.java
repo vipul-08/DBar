@@ -40,7 +40,7 @@ public class RiddlesActivity extends AppCompatActivity {
             0,
             0,
             0,
-            R.drawable.five
+            R.drawable.nine
     };
 
     @Override

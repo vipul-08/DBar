@@ -110,19 +110,19 @@ public class ArActivity extends ArJpctActivity {
         map.put("biotechnology library","single_barcode;14;80");
         map.put("ppt bridge","single_barcode;15;80");
         map.put("workshop","single_barcode;16;80");
-        map.put("fe notice board","single_barcode;16;80");
-        map.put("art gallary","single_barcode;17;80");
-        map.put("student council room","single_barcode;18;80");
-        map.put("xerox shop","single_barcode;19;80");
-        map.put("ppt sample display","single_barcode;20;80");
-        map.put("glass building","single_barcode;21;80");
-        map.put("library","single_barcode;22;80");
-        map.put("em lab","single_barcode;23;80");
-        map.put("beacon room","single_barcode;24;80");
-        map.put("cafeteria","single_barcode;25;80");
-        map.put("server room","single_barcode;26;80");
-        map.put("bcr","single_barcode;27;80");
-        map.put("nss room","single_barcode;28;80");
+        map.put("fe notice board","single_barcode;17;80");
+        map.put("art gallary","single_barcode;18;80");
+        map.put("student council room","single_barcode;19;80");
+        map.put("xerox shop","single_barcode;20;80");
+        map.put("ppt sample display","single_barcode;21;80");
+        map.put("glass building","single_barcode;22;80");
+        map.put("library","single_barcode;23;80");
+        map.put("em lab","single_barcode;24;80");
+        map.put("beacon room","single_barcode;25;80");
+        map.put("cafeteria","single_barcode;26;80");
+        map.put("server room","single_barcode;27;80");
+        map.put("bcr","single_barcode;28;80");
+        map.put("nss room","single_barcode;29;80");
 
         Log.d(TAG, "populateTrackableObjects: "+map.get(location.toLowerCase()));
 
