@@ -34,13 +34,13 @@ public class RiddlesActivity extends AppCompatActivity {
     int images[] = {
             0,
             0,
-            R.drawable.three,
-            R.drawable.four,
+            R.drawable.cc,
+            R.drawable.amphi,
             0,
             0,
             0,
             0,
-            R.drawable.nine
+            R.drawable.sop
     };
 
     @Override

@@ -148,12 +148,12 @@
         "source": "/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/settings.png",
-        "source": "/home/vipul/Dbar/ArJpctBaseLib/build/intermediates/bundles/default/res/drawable-mdpi-v4/settings.png"
-    },
-    {
         "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png",
         "source": "/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/settings.png",
+        "source": "/home/vipul/Dbar/ArJpctBaseLib/build/intermediates/bundles/default/res/drawable-mdpi-v4/settings.png"
     },
     {
         "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png",
