@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/vipul/DBar/app/build/intermediates/res/merged/debug/raw/pacmanvsmario.mp4",
-        "source": "/home/vipul/DBar/app/src/main/res/raw/pacmanvsmario.mp4"
+        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/raw/pacmanvsmario.mp4",
+        "source": "/home/vipul/Dbar/app/src/main/res/raw/pacmanvsmario.mp4"
+    },
+    {
+        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/raw/alien.sfb",
+        "source": "/home/vipul/Dbar/app/src/main/res/raw/alien.sfb"
     }
 ]

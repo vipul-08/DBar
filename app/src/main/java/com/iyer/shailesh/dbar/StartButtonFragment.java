@@ -28,7 +28,7 @@ public class StartButtonFragment extends Fragment implements View.OnClickListene
         (view.findViewById(R.id.startbtn)).setOnClickListener(this);
         NumberPicker numberPicker=(NumberPicker) view.findViewById(R.id.numberPicker);
         numberPicker.setMinValue(1);
-        numberPicker.setMaxValue(7);
+        numberPicker.setMaxValue(9);
         setnumber=1;
         numberPicker.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
             @Override

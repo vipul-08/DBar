@@ -33,6 +33,8 @@ public class sqlitehelper extends SQLiteOpenHelper {
     private static final String TABLE_SET5 = "set5";
     private static final String TABLE_SET6 = "set6";
     private static final String TABLE_SET7 = "set7";
+    private static final String TABLE_SET8 = "set8";
+    private static final String TABLE_SET9 = "set9";
     private static final String TABLE_LOCATIONS = "locations";
 
 
@@ -52,8 +54,6 @@ public class sqlitehelper extends SQLiteOpenHelper {
     private static final String R2 = "r2";
     private static final String R3 = "r3";
     private static final String R4 = "r4";
-    private static final String R5 = "r5";
-    private static final String R6 = "r6";
     private static final String SET = "setno";
 
 
@@ -85,7 +85,11 @@ public class sqlitehelper extends SQLiteOpenHelper {
         db.execSQL(query1);
         query1 = "CREATE TABLE IF NOT EXISTS " + TABLE_SET7 + "(" + RID + " INTEGER PRIMARY KEY ," + QUESTION + " TEXT," + ANSWER + " TEXT," + DBID + " TEXT,"+ IMAGE +"  TEXT );";
         db.execSQL(query1);
-        String query2 = "CREATE TABLE IF NOT EXISTS " + TABLE_DETAILS + "(" + ID + " INTEGER PRIMARY KEY AUTOINCREMENT," + STARTTIME + " TEXT," + ENDTIME + " TEXT," + R1 + " INTEGER," + R2 + " INTEGER," + R3 + " INTEGER," + R4 + " INTEGER," + R5 + " INTEGER," + R6 + " INTEGER," + SET + " INTEGER);";
+        query1 = "CREATE TABLE IF NOT EXISTS " + TABLE_SET8 + "(" + RID + " INTEGER PRIMARY KEY ," + QUESTION + " TEXT," + ANSWER + " TEXT," + DBID + " TEXT,"+ IMAGE +"  TEXT );";
+        db.execSQL(query1);
+        query1 = "CREATE TABLE IF NOT EXISTS " + TABLE_SET9 + "(" + RID + " INTEGER PRIMARY KEY ," + QUESTION + " TEXT," + ANSWER + " TEXT," + DBID + " TEXT,"+ IMAGE +"  TEXT );";
+        db.execSQL(query1);
+        String query2 = "CREATE TABLE IF NOT EXISTS " + TABLE_DETAILS + "(" + ID + " INTEGER PRIMARY KEY AUTOINCREMENT," + STARTTIME + " TEXT , " + ENDTIME + " TEXT," + R1 + " INTEGER," + R2 + " INTEGER," + R3 + " INTEGER," + R4 + " INTEGER," + " INTEGER," + SET + " INTEGER);";
         db.execSQL(query2);
         String query4 = "CREATE TABLE IF NOT EXISTS " + TABLE_LOCATIONS + "(" + LID + " INTEGER PRIMARY KEY AUTOINCREMENT," + LOC + " TEXT);";
         db.execSQL(query4);
@@ -104,7 +108,7 @@ public class sqlitehelper extends SQLiteOpenHelper {
         String query1;
         String number = "";
 
-        for(int k = 1 ; k <= 7 ; k++) {
+        for(int k = 1 ; k <= 9 ; k++) {
             number = String.valueOf(k);
             String tableName = "set" + number;
             query1 = "SELECT DISTINCT "+ ANSWER + " FROM " + tableName;
@@ -137,50 +141,36 @@ public class sqlitehelper extends SQLiteOpenHelper {
                 ContentValues values = new ContentValues();
                 //r1
                 values.put(RID, "1");
-                values.put(QUESTION, "Decode the image: ");
-                values.put(ANSWER, "Gopuram");
+                values.put(QUESTION, "A stationary room which is never utilized.\n" +
+                        "Stationary Store Besides _ _ _ _   _ _ _ _");
+                values.put(ANSWER, "Exam Cell");
                 values.put(DBID, "db1");
-                values.put(IMAGE , "1_1");
+                values.put(IMAGE , "NO");
                 dbase.insert(tablename, null, values);
                 //r2
                 values.put(RID, "2");
-                values.put(QUESTION, "Lina Is Binge Reading ARY Books.");
-                values.put(ANSWER, "Library");
+                values.put(QUESTION, "Best out of waste is always made.\n" +
+                        "A step towards nature and our hardwork gets paid.\n" +
+                        "_ _ _ _ _ _ _    _ _ _");
+                values.put(ANSWER, "Compost Pit");
                 values.put(DBID, "db2");
                 values.put(IMAGE , "NO");
                 dbase.insert(tablename, null, values);
                 //r3
                 values.put(RID, "3");
-                values.put(QUESTION, "You will never see so many great personalities together in a room.");
-                values.put(ANSWER, "Auditorium");
+                values.put(QUESTION, "Studying in a classroom is necessary but their business minds need more than just a classroom.\n" +
+                        "_ _ _   _ _ _ _");
+                values.put(ANSWER, "MBA Audi");
                 values.put(DBID, "db3");
                 values.put(IMAGE,"NO");
                 dbase.insert(tablename, null, values);
                 //r4
                 values.put(RID, "4");
-                values.put(QUESTION, "Reshuffle:\nIEAEMPHTHTRA");
-                values.put(ANSWER, "Amphitheatre");
+                values.put(QUESTION, "Unscramble This:  O P G R M U A");
+                values.put(ANSWER, "Gopuram");
                 values.put(DBID, "db4");
                 values.put(IMAGE , "NO");
                 dbase.insert(tablename, null, values);
-                //r5
-                values.put(RID, "5");
-                values.put(QUESTION, "Drink from it but it’s not a glass, It consists of 7 letters, includes 3 vowels and has 4 consonants.");
-                values.put(ANSWER, "Canteen");
-                values.put(DBID, "db5");
-                values.put(IMAGE , "NO");
-                dbase.insert(tablename, null, values);
-                //r6
-                values.put(RID, "6");
-                values.put(QUESTION, "A + A + A = 24 \n" +
-                        "Y + Y + A = 20\n" +
-                        "Y x B – B = 10            \n" +
-                        "A-5, Y-6, B/2 = ?");
-                values.put(ANSWER, "301");
-                values.put(DBID, "db6");
-                values.put(IMAGE , "NO");
-                dbase.insert(tablename, null, values);
-
             }
             cursor.close();
         }
@@ -195,50 +185,35 @@ public class sqlitehelper extends SQLiteOpenHelper {
                 ContentValues values = new ContentValues();
                 //r1
                 values.put(RID, "1");
-                values.put(QUESTION, "Decode the image: ");
-                values.put(ANSWER, "NT2");
-                values.put(IMAGE, "2_1");
+                values.put(QUESTION, "Pehle pet puja\n" +
+                        "Fir kaam duja");
+                values.put(ANSWER, "Canteen");
+                values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r2
                 values.put(RID, "2");
-                values.put(QUESTION, "P + P + P = 30\n" +
-                        "P + 2T = 18 \n" +
-                        "T – W = 2 \n" +
-                        "P/10, T-4, W-1 =?");
-                values.put(ANSWER, "101");
+                values.put(QUESTION, "KT aaye na aaye\n" +
+                        "Tu yaha aayega\n" +
+                        "_ _ _ _   _ _ _ _");
+                values.put(ANSWER, "Exam Cell");
                 values.put(DBID, "db2");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r3
                 values.put(RID, "3");
-                values.put(QUESTION, "Run all you want, you’re not going anywhere!");
-                values.put(ANSWER, "Gym");
+                values.put(QUESTION, "Unscramble This: A O D U S P I\n" +
+                        "_ _ _   _ _ _ _");
+                values.put(ANSWER, "SOP Audi");
                 values.put(DBID, "db3");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r4
                 values.put(RID, "4");
-                values.put(QUESTION, "When Oreo Really Kicked, Sam HOPped..");
-                values.put(ANSWER, "Workshop");
+                values.put(QUESTION, "The only place where not your mind, but your body is trained.");
+                values.put(ANSWER, "Gym");
                 values.put(DBID, "db4");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
-                //r5
-                values.put(RID, "5");
-                values.put(QUESTION, "I try to send a letter, But all I do is receive. The port to all things outside. I am metal I believe."
-                +"\n_ _ _ _   _ _ _ _");
-                values.put(ANSWER, "Main Gate");
-                values.put(DBID, "db5");
-                values.put(IMAGE, "NO");
-                dbase.insert(tablename, null, values);
-                //r6
-                values.put(RID, "6");
-                values.put(QUESTION, "Reshuffle: \nROPINGTALK\n_ _ _ _ _ _ _   _ _ _");
-                values.put(ANSWER, "Parking Lot");
-                values.put(DBID, "db6");
-                values.put(IMAGE, "NO");
-                dbase.insert(tablename, null, values);
-
             }
             cursor.close();
         }
@@ -253,47 +228,35 @@ public class sqlitehelper extends SQLiteOpenHelper {
                 ContentValues values = new ContentValues();
                 //r1
                 values.put(RID, "1");
-                values.put(QUESTION, "2S =10 \n" +
-                        "S x G + G =12\n" +
-                        "S x G – K x S = S \n" +
-                        "S-2, G/2, Kx9  =?");
-                values.put(ANSWER, "319");
+                values.put(QUESTION, "Where period is not a part of menstruation but a table\n" +
+                        "_ _ _ _ _ _ _ _ _   _ _ _");
+                values.put(ANSWER, "Chemistry Lab");
                 values.put(DBID, "db1");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r2
                 values.put(RID, "2");
-                values.put(QUESTION, "Decode the image: ");
-                values.put(ANSWER, "Canteen");
+                values.put(QUESTION, "My name is at the entrance\n" +
+                        "For all the graduate students");
+                values.put(ANSWER, "Gate");
                 values.put(DBID, "db2");
-                values.put(IMAGE, "3_2");
+                values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r3
                 values.put(RID, "3");
-                values.put(QUESTION, "Reshuffle: \nROUPMAG");
-                values.put(ANSWER, "Gopuram");
+                values.put(QUESTION, "Comedy Central Logo\n" +
+                        "Decode the image:");
+                values.put(ANSWER, "Computer Center");
                 values.put(DBID, "db3");
-                values.put(IMAGE, "NO");
+                values.put(IMAGE, "3_3");
                 dbase.insert(tablename, null, values);
                 //r4
                 values.put(RID, "4");
-                values.put(QUESTION, "When each turn finds you in a new mystery, a new adventure or a new romance.");
-                values.put(ANSWER,  "Library");
+                values.put(QUESTION, "Nowdays, everything is available on a click\n" +
+                        "But the room of aid provides cure to the sick\n" +
+                        "_ _ _ _ _   _ _ _   _ _ _ _");
+                values.put(ANSWER,  "First Aid Room");
                 values.put(DBID, "db4");
-                values.put(IMAGE, "NO");
-                dbase.insert(tablename, null, values);
-                //r5
-                values.put(RID, "5");
-                values.put(QUESTION, "OFF Iceland, Coming to England");
-                values.put(ANSWER, "Office");
-                values.put(DBID, "db5");
-                values.put(IMAGE, "NO");
-                dbase.insert(tablename, null, values);
-                //r6
-                values.put(RID, "6");
-                values.put(QUESTION, "I swing in and out to let you through, sometimes I creek, that’s your clue\n_ _ _ _   _ _ _ _");
-                values.put(ANSWER, "Main Gate");
-                values.put(DBID, "db6");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
 
@@ -310,50 +273,40 @@ public class sqlitehelper extends SQLiteOpenHelper {
                 ContentValues values = new ContentValues();
                 //r1
                 values.put(RID, "1");
-                values.put(QUESTION, "Reshuffle: \nAYBILRR" );
-                values.put(ANSWER, "Library");
+                values.put(QUESTION, "To solve this little fix\n" +
+                        "Einstein and Newton made their mix\n" +
+                        "Head to the place where they did their tricks.\n" +
+                        "_ _ _ _ _ _ _   _ _ _" );
+                values.put(ANSWER, "Physics Lab");
                 values.put(DBID, "db1");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r2
                 values.put(RID, "2");
-                values.put(QUESTION, "A + A + A = 24 \n" +
-                        "Y + Y + A = 20\n" +
-                        "Y x B – B = 10\n" +
-                        "A-5, Y-6, B/2 = ?");
-                values.put(ANSWER, "319");
+                values.put(QUESTION, "Decode the image:");
+                values.put(ANSWER, "Amphitheatre");
                 values.put(DBID, "db2");
-                values.put(IMAGE, "NO");
+                values.put(IMAGE, "4_2");
                 dbase.insert(tablename, null, values);
                 //r3
                 values.put(RID, "3");
-                values.put(QUESTION, "Decode the image: ");
-                values.put(ANSWER, "Workshop");
+                values.put(QUESTION, "I am always open for your suggestions\n" +
+                        "Come meet me outside Principal Office\n" +
+                        "Without any Hesitation\n" +
+                        "_ _ _ _ _ _ _ _ _ _   _ _ _");
+                values.put(ANSWER, "Suggestion Box");
                 values.put(DBID, "db3");
-                values.put(IMAGE, "4_3");
+                values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r4
                 values.put(RID, "4");
-                values.put(QUESTION, "Acoustics are very important here, the most common thing is stage fear");
-                values.put(ANSWER, "Amphitheatre");
+                values.put(QUESTION, "Best out of waste is always made\n" +
+                        "A step towards nature and our hardwork is paid.\n" +
+                        "_ _ _ _ _ _ _   _ _ _");
+                values.put(ANSWER, "Compost Pit");
                 values.put(DBID, "db4");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
-                //r5
-                values.put(RID, "5");
-                values.put(QUESTION, "Gaming On Pc Under Really Angry Mother");
-                values.put(ANSWER, "Gopuram");
-                values.put(DBID, "db5");
-                values.put(IMAGE, "NO");
-                dbase.insert(tablename, null, values);
-                //r6
-                values.put(RID, "6");
-                values.put(QUESTION, "What’s black and white and read all over?");
-                values.put(ANSWER, "Library");
-                values.put(DBID, "db6");
-                values.put(IMAGE, "NO");
-                dbase.insert(tablename, null, values);
-
             }
             cursor.close();
         }
@@ -367,50 +320,42 @@ public class sqlitehelper extends SQLiteOpenHelper {
                 ContentValues values = new ContentValues();
                 //r1
                 values.put(RID, "1");
-                values.put(QUESTION, "Decode the image: \n_ _ _ _ _ _ _   _ _ _");
-                values.put(ANSWER, "Parking Lot");
+                values.put(QUESTION, "There is bio\n" +
+                        "There is technology\n" +
+                        "There are books\n" +
+                        "What else do you need?\n" +
+                        "_ _ _ _ _ _ _ _ _ _ _ _ _    _ _ _ _ _ _ _");
+                values.put(ANSWER, "Biotechnology Library");
                 values.put(DBID, "db1");
-                values.put(IMAGE, "5_1");
+                values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r2
                 values.put(RID, "2");
-                values.put(QUESTION, "Maya Alone Is Not Going At Temple Eidiya\n_ _ _ _   _ _ _ _");
-                values.put(ANSWER, "Main Gate");
+                values.put(QUESTION, "The bridge from where Juliet could see Romeo\n" +
+                        "But Romeo couldn't see Juliet.\n" +
+                        "_ _ _   _ _ _ _ _ _");
+                values.put(ANSWER, "PPT Bridge");
                 values.put(DBID, "db2");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r3
                 values.put(RID, "3");
-                values.put(QUESTION, "Reshuffle: \nEATENNC");
-                values.put(ANSWER, "Canteen");
+                values.put(QUESTION, "An underground world of huff and puff.\n" +
+                        "Full of metal, wood and mechanical stuff.");
+                values.put(ANSWER, "Workshop");
                 values.put(DBID, "db3");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r4
                 values.put(RID, "4");
-                values.put(QUESTION, "It has million stories but cannot tell");
-                values.put(ANSWER, "Library");
+                values.put(QUESTION, "FE ke liye nayi par kahaani ye puraani\n" +
+                        "75% attendance hua ki nahi dekhlo FEs\n" +
+                        "Warna assignment me nikal jaayegi jawaani.\n" +
+                        "_ _   _ _ _ _ _ _   _ _ _ _ _");
+                values.put(ANSWER, "FE Notice Board");
                 values.put(DBID, "db4");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
-                //r5
-                values.put(RID, "5");
-                values.put(QUESTION, "The more you come here, the more you get inspired");
-                values.put(ANSWER, "Auditorium");
-                values.put(DBID, "db5");
-                values.put(IMAGE, "NO");
-                dbase.insert(tablename, null, values);
-                //r6
-                values.put(RID, "6");
-                values.put(QUESTION, "3F = 60 \n" +
-                        "F + 2U = 30 \n" +
-                        "U – K = 3 \n" +
-                        "F/20, 0/U, K/2 =?");
-                values.put(ANSWER, "101");
-                values.put(DBID, "db6");
-                values.put(IMAGE, "NO");
-                dbase.insert(tablename, null, values);
-
             }
             cursor.close();
         }
@@ -424,50 +369,39 @@ public class sqlitehelper extends SQLiteOpenHelper {
                 ContentValues values = new ContentValues();
                 //r1
                 values.put(RID, "1");
-                values.put(QUESTION, "It is said that work smart and not work hard but here it is vice versa");
-                values.put(ANSWER, "Workshop");
+                values.put(QUESTION, "Issi jagah milenge\n" +
+                        "संगणक के कलाकार..\n" +
+                        "_ _ _   _ _ _ _ _ _ _");
+                values.put(ANSWER, "Art Gallary");
                 values.put(DBID, "db1");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r2
                 values.put(RID, "2");
-                values.put(QUESTION, "Decode the image: \n_ _ _ _ _   _ _ _   _ _ _ _");
-                values.put(ANSWER, "First Aid Room");
+                values.put(QUESTION, "A room where only leaders can enter.\n" +
+                        "_ _ _ _ _ _ _   _ _ _ _ _ _ _    _ _ _ _");
+                values.put(ANSWER, "Student Council Room");
                 values.put(DBID, "db2");
-                values.put(IMAGE, "6_2");
+                values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r3
                 values.put(RID, "3");
-                values.put(QUESTION, "A + A + A = 24 \n" +
-                        "Y + Y + A = 20\n" +
-                        "Y x B – B = 10            \n" +
-                        "A-5, Y-6, B/2 = ?");
-                values.put(ANSWER, "301");
+                values.put(QUESTION, "A place you can make a copy of someone's notes\n" +
+                        "But not their personality\n" +
+                        "_ _ _ _ _    _ _ _ _");
+                values.put(ANSWER, "Xerox Shop");
                 values.put(DBID, "db3");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r4
                 values.put(RID, "4");
-                values.put(QUESTION, "Reshuffle: \nFICAREETA");
-                values.put(ANSWER, "Cafeteria");
+                values.put(QUESTION, "Paani kam hai matke me\n" +
+                        "Package kardu ek jhatke me\n" +
+                        "_ _ _   _ _ _ _ _ _    _ _ _ _ _ _ _");
+                values.put(ANSWER, "PPT Sample Display");
                 values.put(DBID, "db4");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
-                //r5
-                values.put(RID, "5");
-                values.put(QUESTION, "Patrick And Rose Kissing In Garage\n_ _ _ _ _ _ _   _ _ _");
-                values.put(ANSWER, "Parking Lot");
-                values.put(DBID, "db5");
-                values.put(IMAGE, "NO");
-                dbase.insert(tablename, null, values);
-                //r6
-                values.put(RID, "6");
-                values.put(QUESTION, "When you are in college, you desperately want to go HERE but when you are HERE you want college back. HERE is where your clue is");
-                values.put(ANSWER, "Office");
-                values.put(DBID, "db6");
-                values.put(IMAGE, "NO");
-                dbase.insert(tablename, null, values);
-
             }
             cursor.close();
         }
@@ -481,57 +415,131 @@ public class sqlitehelper extends SQLiteOpenHelper {
                 ContentValues values = new ContentValues();
                 //r1
                 values.put(RID, "1");
-                values.put(QUESTION, "Catherine, Andy and Nick Tranced on Eccentric Edm Night");
-                values.put(ANSWER, "Canteen");
+                values.put(QUESTION, "A crystal clear place full of machinery\n" +
+                        "_ _ _ _ _    _ _ _ _ _ _ _ _");
+                values.put(ANSWER, "Glass Building");
                 values.put(DBID, "db1");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r2
                 values.put(RID, "2");
-                values.put(QUESTION, "Decode the image: ");
-                values.put(ANSWER, "101");
+                values.put(QUESTION, "I am a small room consisting of knowledge from around the world.");
+                values.put(ANSWER, "Library");
                 values.put(DBID, "db2");
-                values.put(IMAGE, "7_2");
+                values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r3
                 values.put(RID, "3");
-                values.put(QUESTION, "2S =10 \n" +
-                        "S x G + G =12\n" +
-                        "S x G – K x S = S \n" +
-                        "S-2, G/2, Kx9  =?");
-                values.put(ANSWER, "319");
+                values.put(QUESTION, "A place where you test all type of forces but you will find me at the forever closed courses.\n" +
+                        "_ _   _ _ _");
+                values.put(ANSWER, "EM Lab");
                 values.put(DBID, "db3");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
                 //r4
                 values.put(RID, "4");
-                values.put(QUESTION, "Reshuffle: \nANTIMAGE\n_ _ _ _   _ _ _ _");
-                values.put(ANSWER, "Main Gate");
+                values.put(QUESTION, "A room from where education is taken but the irony is\n" +
+                        "It sounds like bacon\n" +
+                        "_ _ _ _ _ _   _ _ _ _");
+                values.put(ANSWER, "Beacon Room");
                 values.put(DBID, "db4");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
-                //r5
-                values.put(RID, "5");
-                values.put(QUESTION, "A thousand wheels, but move I do not. Call me what I am, call me a lot. What am I?\n_ _ _ _ _ _ _   _ _ _");
-                        values.put(ANSWER, "Parking Lot");
-                values.put(DBID, "db5");
+            }
+            cursor.close();
+        } else if (set==8)
+        {
+            dbase=this.getWritableDatabase();
+            String selectQuery = "SELECT  * FROM " + TABLE_SET8;
+            Cursor cursor=dbase.rawQuery(selectQuery,null);
+            int flag=cursor.getCount();
+            if (flag == 0) {
+                ContentValues values = new ContentValues();
+                //r1
+                values.put(RID, "1");
+                values.put(QUESTION, "Mocha, Latte, Iced Tea\n" +
+                        "What will the flavour of my maggie be?");
+                values.put(ANSWER, "Cafeteria");
+                values.put(DBID, "db1");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
-                //r6
-                values.put(RID, "6");
-                values.put(QUESTION, "Like skits? Like dance? Like speeches? This is the place for you");
-                values.put(ANSWER, "Auditorium");
-                values.put(DBID, "db6");
+                //r2
+                values.put(RID, "2");
+                values.put(QUESTION, "The mother room for all computers\n" +
+                        "Where data will be served.\n" +
+                        "_ _ _ _ _ _    _ _ _ _");
+                values.put(ANSWER, "Server Room");
+                values.put(DBID, "db2");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);
-
+                //r3
+                values.put(RID, "3");
+                values.put(QUESTION, "Studying in a classroom is necessary\n" +
+                        "But there business minds\n" +
+                        "Need more than just a classroom\n" +
+                        "_ _ _   _ _ _ _");
+                values.put(ANSWER, "MBA Audi");
+                values.put(DBID, "db3");
+                values.put(IMAGE, "NO");
+                dbase.insert(tablename, null, values);
+                //r4
+                values.put(RID, "4");
+                values.put(QUESTION, "Where period is not a part of menstruation but a table\n" +
+                        "_ _ _ _ _ _ _ _ _   _ _ _");
+                values.put(ANSWER, "Chemistry Lab");
+                values.put(DBID, "db4");
+                values.put(IMAGE, "NO");
+                dbase.insert(tablename, null, values);
+            }
+            cursor.close();
+        } else if (set==9)
+        {
+            dbase=this.getWritableDatabase();
+            String selectQuery = "SELECT  * FROM " + TABLE_SET9;
+            Cursor cursor=dbase.rawQuery(selectQuery,null);
+            int flag=cursor.getCount();
+            if (flag == 0) {
+                ContentValues values = new ContentValues();
+                //r1
+                values.put(RID, "1");
+                values.put(QUESTION, "An underground world of huff and puff.\n" +
+                        "Full of metal, wood and mechanical stuff.");
+                values.put(ANSWER, "Workshop");
+                values.put(DBID, "db1");
+                values.put(IMAGE, "NO");
+                dbase.insert(tablename, null, values);
+                //r2
+                values.put(RID, "2");
+                values.put(QUESTION, "A gender personal room.\n" +
+                        "Where the girls don't groom.");
+                values.put(ANSWER, "BCR");
+                values.put(DBID, "db2");
+                values.put(IMAGE, "NO");
+                dbase.insert(tablename, null, values);
+                //r3
+                values.put(RID, "3");
+                values.put(QUESTION, "Where people use their mind and creativity\n" +
+                        "For the betterment of the society\n" +
+                        "_ _ _   _ _ _ _");
+                values.put(ANSWER, "NSS Room");
+                values.put(DBID, "db3");
+                values.put(IMAGE, "NO");
+                dbase.insert(tablename, null, values);
+                //r4
+                values.put(RID, "4");
+                values.put(QUESTION, "Decode the image:\n" +
+                        "_ _ _    _ _ _ _");
+                values.put(ANSWER, "SOP Audi");
+                values.put(DBID, "db4");
+                values.put(IMAGE, "9_1");
+                dbase.insert(tablename, null, values);
             }
             cursor.close();
         }
     }
 
     public void createnewuser(int set) {
-        for(int i = 1 ; i <= 7 ; i ++)
+        for(int i = 1 ; i <= 9 ; i ++)
             insertquestions(i);
         insertLocations();
 
@@ -551,8 +559,6 @@ public class sqlitehelper extends SQLiteOpenHelper {
             values.put(R2, 0);
             values.put(R3, 0);
             values.put(R4, 0);
-            values.put(R5, 0);
-            values.put(R6, 0);
             values.put(SET, set);
             dbase.insert(TABLE_DETAILS, null, values);
 
@@ -594,12 +600,12 @@ public class sqlitehelper extends SQLiteOpenHelper {
     public ArrayList<Riddles> initialiseDetails(ArrayList<Riddles> list) {
         // Select All Query
 
-        String selectQuery = "SELECT " + R1 + "," + R2 + "," + R3 + "," + R4 + "," + R5 + "," + R6 +  " FROM " + TABLE_DETAILS + " WHERE " + ENDTIME + "=''";
+        String selectQuery = "SELECT " + R1 + "," + R2 + "," + R3 + "," + R4 +  " FROM " + TABLE_DETAILS + " WHERE " + ENDTIME + "=''";
         dbase = this.getReadableDatabase();
         Cursor cursor = dbase.rawQuery(selectQuery, null);
         // putting status in Riddle object
         if (cursor.moveToFirst()) {
-            for (int i = 0; i < 6; i++) {
+            for (int i = 0; i < 4; i++) {
                 list.get(i).setStatus(cursor.getInt(i));
             }
         }
@@ -624,7 +630,7 @@ public class sqlitehelper extends SQLiteOpenHelper {
 
     public void update_Status(int position) {
         dbase = this.getWritableDatabase();
-        String query = "SELECT " + R1 + "," + R2 + "," + R3 + "," + R4 + "," + R5 + "," + R6 + " FROM " + TABLE_DETAILS + " WHERE " + ENDTIME + "=''";
+        String query = "SELECT " + R1 + "," + R2 + "," + R3 + "," + R4 + " FROM " + TABLE_DETAILS + " WHERE " + ENDTIME + "=''";
         Cursor cursor = dbase.rawQuery(query, null);
 
         String riddle = cursor.getColumnName(position);
@@ -645,7 +651,7 @@ public class sqlitehelper extends SQLiteOpenHelper {
 
     public void finishGame() {
         dbase = this.getReadableDatabase();
-        String query = "SELECT * FROM " + TABLE_DETAILS + " WHERE " + ENDTIME + "='' AND " + R1 + "='2' AND " + R2 + "='2' AND " + R3 + "='2' AND " + R4 + "='2' AND " + R5 + "='2'  AND " + R6 + "='2';";
+        String query = "SELECT * FROM " + TABLE_DETAILS + " WHERE " + ENDTIME + "='' AND " + R1 + "='2' AND " + R2 + "='2' AND " + R3 + "='2' AND " + R4 + "='2';";
         Cursor cursor = dbase.rawQuery(query, null);
         int flag = cursor.getCount();
         if (flag == 1) {
@@ -663,7 +669,7 @@ public class sqlitehelper extends SQLiteOpenHelper {
 
     public boolean canfinishgame() {
         dbase = this.getReadableDatabase();
-        String query = "SELECT * FROM " + TABLE_DETAILS + " WHERE " + ENDTIME + "='' AND " + R1 + "='2' AND " + R2 + "='2' AND " + R3 + "='2' AND " + R4 + "='2' AND " + R5 + "='2'  AND " + R6 + "='2';";
+        String query = "SELECT * FROM " + TABLE_DETAILS + " WHERE " + ENDTIME + "='' AND " + R1 + "='2' AND " + R2 + "='2' AND " + R3 + "='2' AND " + R4 + "='2';";
         Cursor cursor = dbase.rawQuery(query, null);
         int flag = cursor.getCount();
         if (flag == 1) {
@@ -712,7 +718,7 @@ public class sqlitehelper extends SQLiteOpenHelper {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-                set=String.valueOf(cursor.getInt(9));
+                set=String.valueOf(cursor.getInt(7));
                 String str = "Player " + cursor.getInt(0) + " completed in " + String.valueOf(hours) + " hours " + String.valueOf(minutes) + " mins " + String.valueOf(seconds) + " seconds set:"+set;
                 strings[i] = str;
                 i++;
@@ -741,7 +747,7 @@ public class sqlitehelper extends SQLiteOpenHelper {
     public int getCurrentQues() {
         dbase = this.getReadableDatabase();
         int quesNum = 0;
-        for(int i = 1 ; i < 7 ; i++){
+        for(int i = 1 ; i < 5 ; i++){
             String query = "SELECT r"+i+" FROM " +TABLE_DETAILS + " WHERE " + ENDTIME + "=''";
             Cursor cursor = dbase.rawQuery(query,null);
             if(cursor.moveToFirst()) {

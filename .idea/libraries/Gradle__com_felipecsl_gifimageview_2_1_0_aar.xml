@@ -1,10 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.felipecsl:gifimageview:2.1.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.felipecsl/gifimageview/2.1.0/res" />
       <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.felipecsl/gifimageview/2.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.felipecsl/gifimageview/2.1.0/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.felipecsl/gifimageview/2.1.0/e067c1c57cdc7f362307c618f5129e2d20f50117/gifimageview-2.1.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -1,7 +1,7 @@
-#Wed Sep 25 03:20:12 IST 2019
-base.0=/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eb76c198c647481633e0d208e4fe6f9172356c3d
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_645101255497d56000c6bcf62e3c40e72c5c5425/classes.dex
-base.1=/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_645101255497d56000c6bcf62e3c40e72c5c5425
-file.0=/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eb76c198c647481633e0d208e4fe6f9172356c3d/classes.dex
+#Thu Sep 26 06:35:27 IST 2019
+base.0=/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_dfcd0aedb7dd9863012c019dcd4468610cc15e29
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5275716b135f1ea16420447edce8e6299ab238a8/classes.dex
+base.1=/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5275716b135f1ea16420447edce8e6299ab238a8
+file.0=/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_dfcd0aedb7dd9863012c019dcd4468610cc15e29/classes.dex

@@ -1,16 +1,15 @@
 package com.iyer.shailesh.dbar;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.FrameLayout;
 
 import com.threed.jpct.Config;
+import com.threed.jpct.Loader;
 import com.threed.jpct.Object3D;
 import com.threed.jpct.Primitives;
 import com.threed.jpct.SimpleVector;
@@ -18,13 +17,13 @@ import com.threed.jpct.Texture;
 import com.threed.jpct.TextureManager;
 import com.threed.jpct.World;
 import com.threed.jpct.util.BitmapHelper;
-import com.threed.jpct.util.ExtendedPrimitives;
 
 import org.artoolkit.ar.base.ARToolKit;
 import org.artoolkit.ar.base.NativeInterface;
 import org.artoolkit.ar.jpct.ArJpctActivity;
 import org.artoolkit.ar.jpct.TrackableObject3d;
 
+import java.util.HashMap;
 import java.util.List;
 
 public class ArActivity extends ArJpctActivity {
@@ -84,271 +83,57 @@ public class ArActivity extends ArJpctActivity {
         NativeInterface.arwSetPatternDetectionMode(NativeInterface.AR_MATRIX_CODE_DETECTION);
         NativeInterface.arwSetMatrixCodeType(NativeInterface.AR_MATRIX_CODE_3x3_PARITY65);
 
-        Drawable dr;
-        Texture texture;
-        Object3D db= Primitives.getSphere(40);
-        db.calcTextureWrapSpherical();
-        int arr[]={R.drawable.icon1,R.drawable.icon2,R.drawable.icon3,R.drawable.icon4,R.drawable.icon5,R.drawable.icon6,R.drawable.icon7};
-
-        if ("gopuram".equalsIgnoreCase(location)) {
-            //Dragon Ball 1
-            tckobj= new TrackableObject3d("single_barcode;0;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db1", texture);
-            try{
-                db.setTexture("db1");
-                tckobj.addChild(db);
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
+        Object3D db = null;
+        try {
+            Object3D[] dbs = Loader.load3DS(getAssets().open("alienfour.3ds"), 50);
+            dbs[0].setOrigin(new SimpleVector(0, 0, -270));
+            dbs[0].rotateX(90);
+            db = dbs[0];
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-        else if ("library".equalsIgnoreCase(location)) {
-            //Dragon Ball 2
-            tckobj = new TrackableObject3d("single_barcode;1;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db2", texture);
-            try{
-                db.setTexture("db2");
-                tckobj.addChild(db);
+        HashMap<String, String> map = new HashMap<>();
+        map.put("exam cell","single_barcode;0;80");
+        map.put("compost pit","single_barcode;1;80");
+        map.put("mba audi","single_barcode;2;80");
+        map.put("gopuram","single_barcode;3;80");
+        map.put("canteen","single_barcode;4;80");
+        map.put("sop audi","single_barcode;5;80");
+        map.put("gym","single_barcode;6;80");
+        map.put("chemistry lab","single_barcode;7;80");
+        map.put("gate","single_barcode;8;80");
+        map.put("computer center","single_barcode;9;80");
+        map.put("first aid room","single_barcode;10;80");
+        map.put("physics lab","single_barcode;11;80");
+        map.put("amphitheatre","single_barcode;12;80");
+        map.put("suggestion box","single_barcode;13;80");
+        map.put("biotechnology library","single_barcode;14;80");
+        map.put("ppt bridge","single_barcode;15;80");
+        map.put("workshop","single_barcode;16;80");
+        map.put("fe notice board","single_barcode;16;80");
+        map.put("art gallary","single_barcode;17;80");
+        map.put("student council room","single_barcode;18;80");
+        map.put("xerox shop","single_barcode;19;80");
+        map.put("ppt sample display","single_barcode;20;80");
+        map.put("glass building","single_barcode;21;80");
+        map.put("library","single_barcode;22;80");
+        map.put("em lab","single_barcode;23;80");
+        map.put("beacon room","single_barcode;24;80");
+        map.put("cafeteria","single_barcode;25;80");
+        map.put("server room","single_barcode;26;80");
+        map.put("bcr","single_barcode;27;80");
+        map.put("nss room","single_barcode;28;80");
 
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
+        Log.d(TAG, "populateTrackableObjects: "+map.get(location.toLowerCase()));
+
+        tckobj = new TrackableObject3d(map.get(location.toLowerCase()));
+        try {
+            tckobj.addChild(db);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-        else if ("auditorium".equalsIgnoreCase(location)) {
-            //Dragon Ball 3
-            tckobj= new TrackableObject3d("single_barcode;2;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db3", texture);
-            try{
-                db.setTexture("db3");
-                tckobj.addChild(db);
+        list.add(tckobj);
 
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
-
-
-        }
-        else if ("amphitheatre".equalsIgnoreCase(location)) {
-            //Dragon Ball 4
-            tckobj= new TrackableObject3d("single_barcode;3;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db4", texture);
-            try{
-                db.setTexture("db4");
-                tckobj.addChild(db);
-
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
-
-
-        }
-        else if ("canteen".equalsIgnoreCase(location)) {
-            //Dragon Ball 5
-            tckobj= new TrackableObject3d("single_barcode;4;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db5", texture);
-            try{
-                db.setTexture("db5");
-                tckobj.addChild(db);
-
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
-        }
-        else if ("301".equalsIgnoreCase(location)) {
-            //Dragon Ball 6
-            tckobj= new TrackableObject3d("single_barcode;5;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db6", texture);
-            try{
-                db.setTexture("db6");
-                tckobj.addChild(db);
-
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
-        }
-        else if("nt2".equalsIgnoreCase(location)) {
-            //Dragon Ball 7
-            tckobj = new TrackableObject3d("single_barcode;6;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db7",texture);
-            try{
-                db.setTexture("db7");
-                tckobj.addChild(db);
-
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
-        }
-        else if("101".equalsIgnoreCase(location)) {
-            //Dragon Ball 7
-            tckobj = new TrackableObject3d("single_barcode;7;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db8",texture);
-            try{
-                db.setTexture("db8");
-                tckobj.addChild(db);
-
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
-        }
-        else if("gym".equalsIgnoreCase(location)) {
-            //Dragon Ball 7
-            tckobj = new TrackableObject3d("single_barcode;8;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db9",texture);
-            try{
-                db.setTexture("db9");
-                tckobj.addChild(db);
-
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
-        }
-
-        else if("workshop".equalsIgnoreCase(location)) {
-            tckobj = new TrackableObject3d("single_barcode;9;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db10",texture);
-            try{
-                db.setTexture("db10");
-                tckobj.addChild(db);
-
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
-        }
-
-        else if("main gate".equalsIgnoreCase(location)) {
-            tckobj = new TrackableObject3d("single_barcode;10;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db11",texture);
-            try{
-                db.setTexture("db11");
-                tckobj.addChild(db);
-
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
-        }
-
-        else if("parking lot".equalsIgnoreCase(location)) {
-            tckobj = new TrackableObject3d("single_barcode;11;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db12",texture);
-            try{
-                db.setTexture("db12");
-                tckobj.addChild(db);
-
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
-        }
-
-        else if("319".equalsIgnoreCase(location)) {
-            tckobj = new TrackableObject3d("single_barcode;12;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db13",texture);
-            try{
-                db.setTexture("db13");
-                tckobj.addChild(db);
-
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
-        }
-        else if("office".equalsIgnoreCase(location)) {
-            tckobj = new TrackableObject3d("single_barcode;13;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db14",texture);
-            try{
-                db.setTexture("db14");
-                tckobj.addChild(db);
-
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
-        }
-        else if("first aid room".equalsIgnoreCase(location)) {
-            tckobj = new TrackableObject3d("single_barcode;14;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db15",texture);
-            try{
-                db.setTexture("db15");
-                tckobj.addChild(db);
-
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
-        }
-        else if("cafeteria".equalsIgnoreCase(location)) {
-            tckobj = new TrackableObject3d("single_barcode;15;80");
-            dr= ContextCompat.getDrawable(this,arr[position]);
-            texture = new Texture(BitmapHelper.rescale(BitmapHelper.convert(dr), 128, 128));
-            TextureManager.getInstance().addTexture("db16",texture);
-            try{
-                db.setTexture("db16");
-                tckobj.addChild(db);
-
-            }
-            catch(Exception e){
-                e.printStackTrace();
-            }
-            list.add(tckobj);
-        }
-
-
-        Log.e("trackobjlist","reached end of method ");
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -359,7 +144,6 @@ public class ArActivity extends ArJpctActivity {
                 if (markervisible){
                     sqlite.update_Status(position);
                     ARToolKit.getInstance().cleanup();
-                    Log.e("Aractivity","Since caught exiting activity");
                     returnIntent.putExtra("position",position);
                     setResult(RESULT_OK,returnIntent);
                     finish();

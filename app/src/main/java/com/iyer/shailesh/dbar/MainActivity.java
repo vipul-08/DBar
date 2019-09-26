@@ -17,7 +17,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     sqlitehelper sqlite=new sqlitehelper(this);
     FragmentManager manager;
-    FragmentTransaction transaction;;
+    FragmentTransaction transaction;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

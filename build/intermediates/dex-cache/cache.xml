@@ -2,13 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/home/vipul/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="bde0667d7414c16ed62d3cfe993cff7f9d732373">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.1.3_7db8b1507687dc945748440ce6f92ff1fd67ea8f.jar" />
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.0.0_d10d40fcb8386476862ffa93b6415418f7a8f0bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vipul/Dbar/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcede25249291b0643fe60ddaa48edfc1f2f0959">
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5275716b135f1ea16420447edce8e6299ab238a8/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -17,70 +26,70 @@
         optimize="true"
         revision="25.0.0"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_72a9cc4473767e06a635d2ccb23e42899f4b808b/classes.dex" />
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_72a9cc4473767e06a635d2ccb23e42899f4b808b/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.1.3/jars/classes.jar"
+        jar="/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="b15c6ded887ad967e20bb335c1a121b253c04dce">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.1.3_992ffb2bad2a7a582ca5f0d204ad2c9c69c1e88c/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/23.4.0/ffbe55fdb2bb456b1485831706a9eac3300bb6b8/support-annotations-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_72a9cc4473767e06a635d2ccb23e42899f4b808b.jar" />
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_747442de067f1280c2c27a4a721115473f470990/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jar="/home/vipul/Dbar/ArJpctBaseLib/build/intermediates/bundles/default/libs/jpct_ae.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_386d0293e259e120062a3e0f33b3e46eb576d30e/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/ArJpctBaseLib/build/intermediates/bundles/default/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="54f394aa3603baca16eceb111a485f84b9bc9b41">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/classes_3ee44b49a1baa466d88ccef5bbda74f231874709.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_386d0293e259e120062a3e0f33b3e46eb576d30e.jar" />
+        sha1="6f4eaa06ccd9554db4895f146d53906526c0a1c4">
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/8/jpct_ae_578d4023cad3d665c3df2494fc8e8914847681ef/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.0/jars/classes.jar"
+        jar="/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.0.0_85892c2620c7ec109f50cda4861ceccdb9e4c78b/classes.dex" />
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.0.0_d6289d5505af65de61890f7cefc0d8dc722d7731/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_fd7d02e0b1ae1c48bb7f40f2ab288305ee2e2620.jar" />
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_6a60f5e65d87f946b0507d367c1bce9eeb07e46e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.0.0_f867578d2a286f7d8b3d93d3bdb76ec419c752cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.0.0_2e1d3a7a3fbc6158c09cea1846fa12d18edea227/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.0.0_58b809df5b0043338b1d53d133c1cf508ffd6108/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -89,259 +98,70 @@
         optimize="true"
         revision="25.0.0"
         sha1="bde0667d7414c16ed62d3cfe993cff7f9d732373">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.1.3_7db8b1507687dc945748440ce6f92ff1fd67ea8f/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.0.0_85892c2620c7ec109f50cda4861ceccdb9e4c78b.jar" />
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.1.3_7db8b1507687dc945748440ce6f92ff1fd67ea8f/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/jars/classes.jar"
+        jar="/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.0.0_51d21a94a3f939e889e322a01049fff38e1c689e/classes.dex" />
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.0.0_88113eb1623cb7d7fe967b0db4f390e6116f6414/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jar="/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.felipecsl/gifimageview/2.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_fd7d02e0b1ae1c48bb7f40f2ab288305ee2e2620/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.0.0_2f48125c0aefb87f7afe8630de5094ff4d0fe4c0.jar" />
+        sha1="e5553c3597d5f766a8364a49925fcbb304bb091b">
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.felipecsl-gifimageview-2.1.0_3c432743e1f1887fe993f0a78dcef7f50d338c27/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jar="/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.1.3/jars/classes.jar"
         jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_ac2673904bec43c8ef1216ac9bd4693c0afbd336/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.0.0_4306eec0ba5e3b47d0e3c1944e8b6fb97894099b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.0.0_51d21a94a3f939e889e322a01049fff38e1c689e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_ac2673904bec43c8ef1216ac9bd4693c0afbd336.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.0.0_34c49a7eb1393a26fde18575834e5cb7bc1b31c8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.1.3/jars/classes.jar"
-        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="b15c6ded887ad967e20bb335c1a121b253c04dce">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.1.3_992ffb2bad2a7a582ca5f0d204ad2c9c69c1e88c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/ArJpctBaseLib/build/intermediates/bundles/default/libs/jpct_ae.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6f4eaa06ccd9554db4895f146d53906526c0a1c4">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/jpct_ae_00df368d0d1fb76259f89ddcf402d1d8ea5ab156.jar" />
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.1.3_d461a85057a236609aa09a029d6dc64fe8be0525/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.0.0_4306eec0ba5e3b47d0e3c1944e8b6fb97894099b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.0.0_34c49a7eb1393a26fde18575834e5cb7bc1b31c8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.0.0_2f48125c0aefb87f7afe8630de5094ff4d0fe4c0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.felipecsl/gifimageview/2.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5553c3597d5f766a8364a49925fcbb304bb091b">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.felipecsl-gifimageview-2.1.0_09f9c157ea7587953ba9fcd4e8dbcbebe8450b00/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="70f68061be3e3120bdf9bfa0b14aae2b8dcd7940">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eb76c198c647481633e0d208e4fe6f9172356c3d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_9cce1e137da8c168886f4ce3d9702329fa024ac3/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/commons-io-2.4_eac68d340b4f2e804bcdfc5de0c65d25b52698e2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.felipecsl/gifimageview/2.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5553c3597d5f766a8364a49925fcbb304bb091b">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/com.felipecsl-gifimageview-2.1.0_09f9c157ea7587953ba9fcd4e8dbcbebe8450b00.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vipul/DBar/ArJpctBaseLib/build/intermediates/bundles/default/libs/jpct_ae.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6f4eaa06ccd9554db4895f146d53906526c0a1c4">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/8/jpct_ae_00df368d0d1fb76259f89ddcf402d1d8ea5ab156/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_0d14d2b668f99824875aec3b1312a3148b4f72b3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_9cce1e137da8c168886f4ce3d9702329fa024ac3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.0.0_6bd4383fa16e59d058eaf97091026be1ac62a447.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.0.0_6bd4383fa16e59d058eaf97091026be1ac62a447/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_0d14d2b668f99824875aec3b1312a3148b4f72b3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/home/vipul/Dbar/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_645101255497d56000c6bcf62e3c40e72c5c5425/classes.dex" />
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_dfcd0aedb7dd9863012c019dcd4468610cc15e29/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/jars/classes.jar"
+        jar="/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.0.0_7ff3b1c9db6eef261d1eeff0d9298ce60be6dc4f/classes.dex" />
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_efcad860972da14f7e20f36d41cc98335b427c29/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/vipul/DBar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.0.0_7ff3b1c9db6eef261d1eeff0d9298ce60be6dc4f.jar" />
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_adcbeaed7574a2fd7425f2a2060c4501fd326557/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_2bd5c2de6fbea237fa9cd5009d586101d9a86658/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -350,7 +170,16 @@
         optimize="true"
         revision="25.0.0"
         sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
-        <dex dex="/home/vipul/DBar/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-io-2.4_eac68d340b4f2e804bcdfc5de0c65d25b52698e2/classes.dex" />
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-io-2.4_eac68d340b4f2e804bcdfc5de0c65d25b52698e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.0.0_bc5b29670a329424652a72d7255c6d7497ceb9d9/classes.dex" />
     </item>
 
 </items>

@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArJpctBaseLib/ArJpctBaseLib.iml" filepath="$PROJECT_DIR$/ArJpctBaseLib/ArJpctBaseLib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DBar.iml" filepath="$PROJECT_DIR$/DBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dbar.iml" filepath="$PROJECT_DIR$/Dbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

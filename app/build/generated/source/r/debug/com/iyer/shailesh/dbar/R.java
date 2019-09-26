@@ -2581,7 +2581,8 @@ containing a value of this type.
         public static final int trhunt=0x7f030000;
     }
     public static final class raw {
-        public static final int pacmanvsmario=0x7f070000;
+        public static final int alien=0x7f070000;
+        public static final int pacmanvsmario=0x7f070001;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f080000;

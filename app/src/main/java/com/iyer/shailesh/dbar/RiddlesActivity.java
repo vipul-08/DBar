@@ -32,13 +32,15 @@ public class RiddlesActivity extends AppCompatActivity {
     sqlitehelper sqlite;
     Toolbar toolbar;
     int images[] = {
-            R.drawable.one,
-            R.drawable.two,
+            0,
+            0,
             R.drawable.three,
             R.drawable.four,
-            R.drawable.five,
-            R.drawable.six,
-            R.drawable.seven
+            0,
+            0,
+            0,
+            0,
+            R.drawable.five
     };
 
     @Override
@@ -85,7 +87,7 @@ public class RiddlesActivity extends AppCompatActivity {
         quesView.setText(question);
         riddleHint.setVisibility(View.VISIBLE);
 
-        if(riddlesList.get(ques-1).getStatus() == 2 && ques == 6) {
+        if(riddlesList.get(ques-1).getStatus() == 2 && ques == 4) {
             next.setVisibility(GONE);
             checkAnswer.setVisibility(GONE);
             captureMarker.setVisibility(View.VISIBLE);
@@ -154,7 +156,7 @@ public class RiddlesActivity extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(ques != 6)
+                if(ques != 4)
                 {
                     ques++;
                     update_ui();
@@ -219,14 +221,14 @@ public class RiddlesActivity extends AppCompatActivity {
         if (requestCode == 1 && resultCode == Activity.RESULT_OK) {
             int position = data.getIntExtra("position", 0);
             Log.e("Activity Result", "setting status");
-            if (riddlesList != null && position != 5) {
+            if (riddlesList != null && position != 3) {
                 Log.e("Activity Result", "inside if loop setting status");
                 riddlesList.get(position).setStatus(2);
                 captureMarker.setEnabled(false);
                 next.setEnabled(true);
                 riddleHint.setText("Riddle Solved!");
             }
-            else if(riddlesList != null && position == 5) {
+            else if(riddlesList != null) {
                 riddlesList.get(position).setStatus(2);
                 next.setVisibility(GONE);
                 checkAnswer.setVisibility(GONE);

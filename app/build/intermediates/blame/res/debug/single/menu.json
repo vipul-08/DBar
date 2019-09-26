@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/vipul/DBar/app/build/intermediates/res/merged/debug/menu/mainmenu.xml",
-        "source": "/home/vipul/DBar/app/src/main/res/menu/mainmenu.xml"
+        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/menu/options.xml",
+        "source": "/home/vipul/Dbar/ArJpctBaseLib/build/intermediates/bundles/default/res/menu/options.xml"
     },
     {
-        "merged": "/home/vipul/DBar/app/build/intermediates/res/merged/debug/menu/options.xml",
-        "source": "/home/vipul/DBar/ArJpctBaseLib/build/intermediates/bundles/default/res/menu/options.xml"
+        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/menu/mainmenu.xml",
+        "source": "/home/vipul/Dbar/app/src/main/res/menu/mainmenu.xml"
     }
 ]
