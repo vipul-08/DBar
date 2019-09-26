@@ -1,4 +1,4 @@
-#Thu Sep 26 06:35:27 IST 2019
+#Thu Sep 26 07:37:04 IST 2019
 base.0=/home/vipul/Dbar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_dfcd0aedb7dd9863012c019dcd4468610cc15e29
 renamed.1=classes2.dex
 renamed.0=classes.dex

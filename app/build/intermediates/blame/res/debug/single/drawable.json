@@ -1,15 +1,7 @@
 [
     {
-        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/icon7.jpg",
-        "source": "/home/vipul/Dbar/app/src/main/res/drawable/icon7.jpg"
-    },
-    {
         "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
         "source": "/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_check_material.xml"
-    },
-    {
-        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/icon1.jpg",
-        "source": "/home/vipul/Dbar/app/src/main/res/drawable/icon1.jpg"
     },
     {
         "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
@@ -22,10 +14,6 @@
     {
         "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
         "source": "/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/icon6.jpg",
-        "source": "/home/vipul/Dbar/app/src/main/res/drawable/icon6.jpg"
     },
     {
         "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
@@ -44,16 +32,8 @@
         "source": "/home/vipul/Dbar/app/src/main/res/drawable/cognition_logo.png"
     },
     {
-        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/two.png",
-        "source": "/home/vipul/Dbar/app/src/main/res/drawable/two.png"
-    },
-    {
         "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/seven.png",
-        "source": "/home/vipul/Dbar/app/src/main/res/drawable/seven.png"
     },
     {
         "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
@@ -62,18 +42,6 @@
     {
         "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
         "source": "/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/icon2.jpg",
-        "source": "/home/vipul/Dbar/app/src/main/res/drawable/icon2.jpg"
-    },
-    {
-        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/six.jpeg",
-        "source": "/home/vipul/Dbar/app/src/main/res/drawable/six.jpeg"
-    },
-    {
-        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/icon5.jpg",
-        "source": "/home/vipul/Dbar/app/src/main/res/drawable/icon5.jpg"
     },
     {
         "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
@@ -104,10 +72,6 @@
         "source": "/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/one.png",
-        "source": "/home/vipul/Dbar/app/src/main/res/drawable/one.png"
-    },
-    {
         "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
         "source": "/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_edit_text_material.xml"
     },
@@ -116,12 +80,12 @@
         "source": "/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/icon4.jpg",
-        "source": "/home/vipul/Dbar/app/src/main/res/drawable/icon4.jpg"
-    },
-    {
         "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
         "source": "/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/nine.png",
+        "source": "/home/vipul/Dbar/app/src/main/res/drawable/nine.png"
     },
     {
         "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/question_background.xml",
@@ -150,14 +114,6 @@
     {
         "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
         "source": "/home/vipul/Dbar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/five.png",
-        "source": "/home/vipul/Dbar/app/src/main/res/drawable/five.png"
-    },
-    {
-        "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/icon3.jpg",
-        "source": "/home/vipul/Dbar/app/src/main/res/drawable/icon3.jpg"
     },
     {
         "merged": "/home/vipul/Dbar/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",

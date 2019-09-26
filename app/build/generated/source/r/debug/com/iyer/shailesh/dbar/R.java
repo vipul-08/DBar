@@ -2337,26 +2337,15 @@ containing a value of this type.
         public static final int common_plus_signin_btn_text_light_focused=0x7f020073;
         public static final int common_plus_signin_btn_text_light_normal=0x7f020074;
         public static final int common_plus_signin_btn_text_light_pressed=0x7f020075;
-        public static final int five=0x7f020076;
-        public static final int four=0x7f020077;
-        public static final int ic_access_time_black_24dp=0x7f020078;
-        public static final int ic_query_builder_black_48dp=0x7f020079;
-        public static final int ic_settings_black_24dp=0x7f02007a;
-        public static final int icon1=0x7f02007b;
-        public static final int icon2=0x7f02007c;
-        public static final int icon3=0x7f02007d;
-        public static final int icon4=0x7f02007e;
-        public static final int icon5=0x7f02007f;
-        public static final int icon6=0x7f020080;
-        public static final int icon7=0x7f020081;
-        public static final int notification_template_icon_bg=0x7f020089;
-        public static final int one=0x7f020082;
-        public static final int question_background=0x7f020083;
-        public static final int settings=0x7f020084;
-        public static final int seven=0x7f020085;
-        public static final int six=0x7f020086;
-        public static final int three=0x7f020087;
-        public static final int two=0x7f020088;
+        public static final int four=0x7f020076;
+        public static final int ic_access_time_black_24dp=0x7f020077;
+        public static final int ic_query_builder_black_48dp=0x7f020078;
+        public static final int ic_settings_black_24dp=0x7f020079;
+        public static final int nine=0x7f02007a;
+        public static final int notification_template_icon_bg=0x7f02007e;
+        public static final int question_background=0x7f02007b;
+        public static final int settings=0x7f02007c;
+        public static final int three=0x7f02007d;
     }
     public static final class id {
         public static final int action0=0x7f0f0088;
