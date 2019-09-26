@@ -39,7 +39,7 @@ public class SplashActivity extends AppCompatActivity {
                 logoView.setVisibility(View.GONE);
                 gifImageView.setVisibility(View.VISIBLE);
                 try {
-                    InputStream inputStream = getAssets().open("compass.gif");
+                    InputStream inputStream = getAssets().open("aliens.gif");
                     byte [] bytes = IOUtils.toByteArray(inputStream);
                     gifImageView.setBytes(bytes);
                     gifImageView.startAnimation();
@@ -50,7 +50,7 @@ public class SplashActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         captionView.setVisibility(View.VISIBLE);
-                        captionView.setText("#BackToTheFuture");
+                        captionView.setText("Welcome to Area 51");
                         new Handler().postDelayed(new Runnable() {
                             @Override
                             public void run() {

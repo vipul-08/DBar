@@ -18,8 +18,8 @@
         />
 
     <com.felipecsl.gifimageview.library.GifImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="500dp"
+        android:layout_height="600dp"
         android:visibility="gone"
         android:id="@+id/gifView"
         android:layout_centerInParent="true" />
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/log_cog"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        android:text="Cognition 2018"
+        android:text="Cognition 2019"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp" />
 

@@ -11,7 +11,185 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55500deb-4b22-4397-9584-4610d9cd1831" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/StartButtonFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/StartButtonFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/aliens.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_ArJpctBaseLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_ArJpctBaseLib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_ArJpctBaseLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_ArJpctBaseLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_ArJpctBaseLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_ArJpctBaseLib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_ArJpctBaseLib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_ArJpctBaseLib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_ArJpctBaseLib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_ArJpctBaseLib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArJpctBaseLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ArJpctBaseLib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArJpctBaseLib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ArJpctBaseLib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArJpctBaseLib/build/outputs/aar/ArJpctBaseLib-release.aar" beforeDir="false" afterPath="$PROJECT_DIR$/ArJpctBaseLib/build/outputs/aar/ArJpctBaseLib-release.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/compass.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/hunt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/drawable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569438874663/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569439747653/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569439776072/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569439790459/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569439809164/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569439855638/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569439872819/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569439892590/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569439927546/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569439954142/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569439965698/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569439982000/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569439993798/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569440001897/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569440010855/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569440033260/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569440045168/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569440055886/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569440170449/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569440220803/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569440234782/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569441033505/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569459165725/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569459258987/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569459623225/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/1569461362810/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/iyer/shailesh/dbar/SplashActivity$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/iyer/shailesh/dbar/SplashActivity$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/iyer/shailesh/dbar/SplashActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/iyer/shailesh/dbar/SplashActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/9.0.0/jars/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/9.0.0/jars/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/iyer/shailesh/dbar/SplashActivity$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/iyer/shailesh/dbar/SplashActivity$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/iyer/shailesh/dbar/SplashActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/iyer/shailesh/dbar/SplashActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/0RPBYlYHa0foXr8lYpsgotFSDMk=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/0RPBYlYHa0foXr8lYpsgotFSDMk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/0RPBYlYHa0foXr8lYpsgotFSDMk=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/0RPBYlYHa0foXr8lYpsgotFSDMk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/iyer/shailesh/dbar/SplashActivity$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/iyer/shailesh/dbar/SplashActivity$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/iyer/shailesh/dbar/SplashActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/iyer/shailesh/dbar/SplashActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/buildId.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/iyer/shailesh/dbar/SplashActivity$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/iyer/shailesh/dbar/SplashActivity$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/iyer/shailesh/dbar/SplashActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/iyer/shailesh/dbar/SplashActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/compass.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/hunt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-23-26-141.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-24-48-801.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-26-46-446.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-28-19-711.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-28-58-752.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-30-31-931.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-31-27-013.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-32-06-755.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-32-52-690.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-33-24-111.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-33-57-196.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-34-55-505.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-35-34-779.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-37-23-881.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-40-16-646.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-40-45-038.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-41-19-186.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-41-46-564.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-42-18-264.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-42-38-675.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-43-50-504.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-44-34-625.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-45-08-996.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-45-32-996.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-57-53-322.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-58-32-979.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-59-07-615.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-59-36-041.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-00-59-50-425.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-00-09-125.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-00-55-606.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-01-12-784.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-01-32-556.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-02-07-515.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-02-13-607.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-02-34-109.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-02-45-667.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-03-01-970.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-03-13-765.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-03-21-860.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-03-30-820.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-03-53-226.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-04-05-135.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-04-15-857.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-06-10-419.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-06-41-414.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-07-00-773.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-07-14-756.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-13-35-761.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-20-33-469.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-22-58-160.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-24-13-206.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-24-32-231.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-24-40-026.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-26-09-250.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-26-37-128.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-28-42-100.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-01-29-52-817.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-05-11-55-395.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-05-51-43-850.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-05-51-49-853.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-05-59-48-936.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-06-00-24-471.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-06-00-57-674.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-06-15-33-324.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-06-20-54-565.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-06-22-45-644.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-06-24-18-934.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-06-30-23-162.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-06-31-10-850.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-06-35-24-565.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-06-37-39-364.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-06-39-21-921.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-06-42-28-856.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-06-55-04-387.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-06-59-22-769.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2019-09-26-07-36-55-110.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,35 +221,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/ArActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/StartButtonFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-              <folding>
-                <element signature="e#1188#1397#0" expanded="true" />
-                <element signature="e#1396#1397#0" expanded="true" />
-                <element signature="e#3042#3521#0" expanded="true" />
-                <element signature="e#3520#3521#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,8 +264,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_riddles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_image.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/SplashActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/mainmenu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
@@ -127,6 +275,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/RiddlesActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/ArActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/StartButtonFragment.java" />
+        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/SplashActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
       </list>
     </option>
   </component>
@@ -139,6 +290,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Dbar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Dbar" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,34 +316,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Dbar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="Dbar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Dbar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="dbar" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dbar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,6 +333,9 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/assets" />
+    </key>
     <key name="android.template.packageName">
       <recent name="com.iyer.shailesh.dbar" />
     </key>
@@ -332,8 +475,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="34" width="1920" height="1046" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="118" width="1920" height="1046" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497309" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -351,12 +493,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49786553" weight="0.32946146" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.48932764" weight="0.3284091" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.48932764" visible="true" weight="0.3284091" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50426894" side_tool="true" weight="0.32946146" />
       <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.49359658" weight="0.3284091" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49359658" visible="true" weight="0.34318182" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49359658" weight="0.34276018" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32946146" />
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -407,20 +549,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -428,27 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/hunt.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/google-services.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -466,33 +577,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_riddles.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_startbutton.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/icon1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/icon2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/icon3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/icon4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/icon1.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/icon2.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/icon3.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/icon4.jpg" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -501,67 +601,41 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_image.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/mainmenu.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
       <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_riddles.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2900">
           <caret line="100" column="10" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/one.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/six.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/one.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/six.jpeg" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/nine.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArJpctBaseLib/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -606,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/RiddlesFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -626,13 +693,6 @@
             <element signature="e#5161#5906#0" expanded="true" />
             <element signature="e#5905#5906#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -674,12 +734,12 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/question_background.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/RiddlesActivity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -703,23 +763,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/ArActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="1440">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArJpctBaseLib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1731">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/hunt.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/alien.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="41" column="70" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/iyer/shailesh/dbar/StartButtonFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+        <state relative-caret-position="-144">
+          <caret line="90" column="63" selection-start-line="90" selection-start-column="63" selection-end-line="90" selection-end-column="63" />
           <folding>
-            <element signature="e#1188#1397#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#3042#3521#0" expanded="true" />
-            <element signature="e#3520#3521#0" expanded="true" />
+            <element signature="e#3310#3789#0" expanded="true" />
+            <element signature="e#3788#3789#0" expanded="true" />
           </folding>
         </state>
       </provider>
