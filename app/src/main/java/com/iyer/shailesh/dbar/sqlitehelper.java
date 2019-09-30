@@ -372,7 +372,7 @@ public class sqlitehelper extends SQLiteOpenHelper {
                 values.put(QUESTION, "Issi jagah milenge\n" +
                         "संगणक के कलाकार..\n" +
                         "_ _ _   _ _ _ _ _ _ _");
-                values.put(ANSWER, "Art Gallary");
+                values.put(ANSWER, "Art Gallery");
                 values.put(DBID, "db1");
                 values.put(IMAGE, "NO");
                 dbase.insert(tablename, null, values);

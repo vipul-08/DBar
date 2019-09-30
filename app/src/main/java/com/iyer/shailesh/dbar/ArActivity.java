@@ -111,7 +111,7 @@ public class ArActivity extends ArJpctActivity {
         map.put("ppt bridge","single_barcode;15;80");
         map.put("workshop","single_barcode;16;80");
         map.put("fe notice board","single_barcode;17;80");
-        map.put("art gallary","single_barcode;18;80");
+        map.put("art gallery","single_barcode;18;80");
         map.put("student council room","single_barcode;19;80");
         map.put("xerox shop","single_barcode;20;80");
         map.put("ppt sample display","single_barcode;21;80");
